@@ -1,14 +1,14 @@
 pdfminer
-unstructured
 pdfminer.six==20221105
-pi_heif
 unstructured_inference
+nltk==3.8.1
 
 # Core PDF parsing and document processing
 unstructured==0.6.7
 PyMuPDF==1.22.5
 pdfplumber==0.9.0
-pi-heif==0.6.0
+pi-heif
+pdf2image
 
 # Text chunking and pipeline utilities
 langchain==0.0.198
@@ -16,7 +16,7 @@ llama-index==0.6.11
 
 # Web scraping (if needed)
 beautifulsoup4==4.12.2
-requests==2.31.0
+requests>=2.25.0,<2.30.0
 
 # Embeddings and LLM access
 openai==0.27.10

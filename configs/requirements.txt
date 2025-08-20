@@ -2,6 +2,7 @@ pdfminer
 pdfminer.six==20221105
 unstructured_inference
 nltk==3.8.1
+dotenv
 
 # Core PDF parsing and document processing
 unstructured==0.6.7
